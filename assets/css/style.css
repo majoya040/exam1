@@ -1,0 +1,1059 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+    
+}
+
+/*global css*/
+.title{
+    width: 100%;
+}
+
+.title h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text{
+    width: 100%;
+}
+
+.text p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.header{
+    width: 100%;
+    background: url(../img/banner.png) center top no-repeat;
+    background-size: cover;
+    height: 150vh;
+    padding: 130px 0px 80px;
+}
+
+.header img{
+    margin-left: 10px;
+}
+
+.header .bg-light{
+    background-color: transparent !important;
+}
+
+.header .navbar-brand img{
+    width: 100px;
+}
+
+.header .navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header .navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin:0px 15px;
+    letter-spacing: 1px;
+}
+
+.banner{
+    width: 100%;
+    padding: 90px 0px 0px;
+}
+
+.banner h1{
+    padding-top: 140px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 40px;
+}
+
+.banner p{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 40px;
+   padding-top: 10px;
+    
+}
+
+.banner .button{
+    width: 100%;
+    padding: 35px 0px 0px 0px;
+    
+    
+}
+
+ .banner .button .btn-info{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: #e550ed ;
+    border: 1px solid #e550ed;
+    transition: 1s ease-in-out;
+    margin-left: 40px;
+}
+
+.banner .button .btn-info:hover{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: transparent ;
+    border: 1px solid #e550ed;
+    transition: 1s ease-in-out;
+    margin-left: 40px;
+
+}
+
+.banner .right{
+    width: 100%;
+    text-align: right;
+    padding: 80px 0px 0px 30px ;
+}
+
+.banner .right img{
+    padding-top: 80px;
+    margin-bottom: 15px;
+}
+
+.banner .right h5{
+    color: #00bfca;
+    font-size: 18px;
+    margin-bottom: -5px;
+   
+}
+
+.banner .right p{
+    font-size: 16px;
+    letter-spacing: 3px;
+    
+}
+
+.body-white{
+    width: 100%;
+    height: 95vh;
+    padding: 80px 0px 0px;
+    text-align: center;
+    background: url(../img/white.png) center top no-repeat;
+    background-size: cover;
+}
+
+.icon1{
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+
+}
+
+.icon1 img{
+   
+    margin-bottom: 40px;
+}
+
+.icon2{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+
+}
+
+.icon2 img{
+    margin-bottom: 45px;
+}
+
+.icon3{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+}
+
+.icon3 img{
+    margin-bottom: 40px;
+}
+
+.body-white .blue{
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+    text-align: left;
+}
+
+.body-white .blue img{
+    margin-left: -25px;
+}
+
+.body-blue{
+    width: 100%;
+    background: url(../img/bigblue.png) center top no-repeat;
+    background-size: cover;
+    height: 160vh;
+}
+
+.body-blue .title h4{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 90px 0px 0px 0;
+}
+
+.body-blue .img{
+    width: 100%;
+    padding: 80px 0px 0px 35px;
+}
+
+.body-blue .img .title h4{
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    color: #00dde4;
+    padding-left: 20px;
+   
+}
+
+.body-blue .img .text p{
+    padding-left: 20px;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 26px;
+    
+}
+
+.body-blue .img .button{
+    width: 100%;
+    padding: 35px 0px 80px 0px;
+    
+    
+}
+
+.body-blue .img .button .btn-info{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: #e550ed ;
+    border: 1px solid #e550ed;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+}
+
+.body-blue .img .button .btn-info:hover{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: transparent ;
+    border: 1px solid #00dde4;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+
+}
+
+.body-white2{
+    width: 100%;
+    background: url(../img/white2.png) center top no-repeat;
+    background-size: cover;
+}
+
+.body-white2 .pink3{
+    width: 100%;
+    text-align: right;
+}
+
+.body-white2 .pink3 img{
+    margin-top: -80px;
+    margin-right: -20px;
+}
+
+
+.body-white2 .left{
+    width: 100%;
+    padding: 80px 0px 0px 40px;
+}
+
+.body-white2 .left img{
+    margin-top: 20px;
+}
+
+.body-white2 .right{
+    width: 100%;
+    padding: 80px 0px 0px 80px;
+}
+
+.body-white2 .right .title h3{
+    color: #00dde4;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 80px;
+    margin-top: 20px;
+}
+
+.body-white2 .right .title h4{
+    margin-top: 20px;
+    padding-left: 80px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.body-white2 .right .text p{
+    padding-left: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+
+}
+
+.body-white2 .right .button{
+    width: 100%;
+    padding: 80px 0px 80px 60px;
+    
+    
+}
+
+.body-white2 .right .button .btn-info{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: #e550ed ;
+    border: 1px solid #e550ed;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+}
+
+.body-white2 .right .button .btn-info:hover{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: #00dde4;
+    background: transparent ;
+    border: 1px solid #00dde4;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+
+}
+
+.body-blue2{
+    width: 100%;
+    height: 150vh;
+    
+    background: url(../img/bigblue.png) center top no-repeat;
+    background-size: cover;
+}
+
+.body-blue2 .blue2{
+    width: 100%;
+
+}
+
+.body-blue2 .blue2 img{
+    margin-left: 120px;
+    margin-top: -120px;
+    height: 200px;
+   
+}
+
+.body-blue2 .title h4{
+    color: white;
+    text-align: center;
+    padding: 60px 0px 80px 0px;
+
+}
+
+.body-blue2 .img{
+    position: relative;
+}
+
+.body-blue2 .text{
+    margin-left: 90px;
+    position: absolute;
+    width: 45%;
+    background: url(../img/box.png) center top no-repeat ;
+    height: 100px;
+    margin-top: -80px;
+   
+}
+.body-blue2 .text p{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.carosel{
+    width: 100%;
+    height: 80vh;
+    background: url(../img/swim.png) center top no-repeat;
+    background-size: cover;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery .title h2{
+    text-align: center;
+    color: #00dde4;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 80px 0px 0px;
+}
+
+.gallery .text p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.gallery table{
+    text-align: justify;
+}
+.gallery .t1{
+    width: 30%;
+    margin-left: -120px;
+    padding-bottom: 20px;
+}
+
+.gallery .t2{
+    width: 30%;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+.gallery .t2 img{
+    height: 400px;
+    width: 480px;
+}
+
+.gallery .t3{
+    width: 30%;
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+
+.gallery .t3 img{
+    margin-left: 150px;
+}
+
+.gallery .t4{
+    width: 30%;
+    padding-left: 180px;
+    padding-bottom: 20px;
+}
+
+.gallery .t4 img{
+    margin-left: 200px;
+}
+
+.gallery .t5{
+    width: 40%;
+    margin-left: -80px;
+}
+
+.gallery .t5 img{
+    margin-left: -35px;
+    width: 440px;
+    height: 350px;
+}
+
+.gallery .t6{
+    width: 40%;
+    padding-left: -20px;
+}
+
+.gallery .t6 img{
+    margin-left: -40px;
+    width: 430px;
+    height: 350px;
+}
+
+.gallery .t7{
+    width: 40%;
+    padding-left: 27px;
+}
+
+.gallery .t7 img{
+   
+    width: 440px;
+    height: 350px;
+}
+
+.write{
+    width: 100%;
+    text-align: center;
+    padding:60px 0px 60px 0px;
+}
+
+.write .text p{
+    text-transform: uppercase;
+}
+
+.app{
+    width: 100%;
+    height: 150vh;
+    background: url(../img/app.png) center top no-repeat;
+    background-size: cover;
+    text-align: right;
+    
+}
+
+.app .title h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-right: 60px;
+
+}
+
+.register{
+    width: 100%;
+    height: 80vh;
+    background: url(../img/register.png) center top no-repeat;
+    background-size: cover;
+}
+
+.register .button{
+    width: 100%;
+    text-align: right;
+    padding-right: 80px;
+    margin-top: -120px;
+   
+    
+    
+}
+
+.register .button .btn-info{
+    
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: #00dde4 ;
+    border: 1px solid #00dde4;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+}
+
+.register .button .btn-info:hover{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: transparent ;
+    border: 1px solid #00dde4;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+
+}
+
+.register .title h2{
+    color: #00dde4;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 90px 0px 0px 90px;
+}
+
+.register .text p{
+    color: white;
+    line-height: 26px;
+    padding: 30px 0px 0px 90px;
+}
+
+
+.register .button2{
+    width: 100%;
+    padding: 50px 0px 0px 80px; 
+    
+}
+
+.register .button2 .btn-info{
+    
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: #00dde4 ;
+    border: 1px solid #00dde4;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+}
+
+.register .button2 .btn-info:hover{
+
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background: transparent ;
+    border: 1px solid #00dde4;
+    transition: 1s ease-in-out;
+    margin-left: 20px;
+
+}
+
+.footer-blue{
+    width: 100%;
+    background: url(../img/bigblue.png) center top no-repeat;
+    background-size: cover;
+}
+
+.footer-blue .img{
+    padding: 50px 0px 40px 40px;
+}
+
+.footer-blue .lekha{
+    padding: 10px 0px 20px 0px;
+}
+
+
+.footer-blue .title p{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    
+}
+
+.footer-blue .title h4{
+    padding: 90px 0px 10px 50px;
+    color: #00dde4;
+}
+
+.footer-blue ul{
+    list-style: none;
+    padding: 40px 0px 0px 50px;
+
+}
+
+.footer-blue ul li{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 26px;
+    padding-top: 10px;
+    color: white;
+    
+}
+
+.footer-blue .title h3{
+    padding: 90px 0px 10px 50px;
+    color: #00dde4;
+    font-weight: 600;
+    text-transform: uppercase;
+ 
+}
+
+.footer-blue .text p{
+    color: white;
+    line-height: 35px;
+}
+
+
+
+
+ /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header .banner .right{
+        text-align: center;
+    }
+
+    .header .banner h1{
+        font-size: 30px;
+    }
+    .header .banner .right h5{
+        color: white;
+    }
+
+    .body-white{
+        padding: 0px;
+        height: 120vh;
+    }
+
+    .body-white .icon1{
+        padding: 0px;
+    }
+
+    .body-white .icon2{
+        padding: 0px;
+    }
+
+    .body-white .icon3{
+        padding: 0px;
+    }
+
+    .body-white .blue{
+        display: none;
+    }
+
+    .body-blue{
+        width: 100%;
+        height: 220vh;
+        padding: 0px;
+    }
+    
+    .body-blue .title h4{
+        padding: 0px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+       
+    }
+    
+    .body-blue .img{
+        width: 100%;
+        padding: 0px;
+       
+        
+    }
+    
+    .body-blue .img .title h4{
+        padding: 0px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+        color: #00dde4;
+        
+       
+    }
+    
+    .body-blue .img .text p{
+        padding: 0px;
+        color: white;
+        letter-spacing: 2px;
+        line-height: 26px;
+        
+    }
+    
+    .body-blue .img .button{
+        width: 100%;
+        padding: 5px 0px 10px 0px;
+        
+        
+    }
+    
+    .body-blue .img .button .btn-info{
+    
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 30px;     
+     
+      
+    }
+    
+    .body-blue .img .button .btn-info:hover{
+    
+        font-size: 17px;
+        font-weight: 600;
+  
+    
+    }
+
+    .body-white2{
+        width: 100%;
+    }
+    .body-white2 .left img{
+        padding: 0px;
+        height: 300px;
+        width: 350px;
+
+    }
+
+    .body-white2 .right .title h3{
+        padding-top: 80px;
+
+    }
+    .body-white2 .pink3{
+        display: none;
+    }
+    
+    .body-blue2 .blue2{
+        display: none;
+    }
+    
+    
+}
+
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .header .banner .right{
+        text-align: center;
+    }
+    
+    .header .banner .right h5{
+        color: white;
+    }
+   
+    
+    .body-white{
+        padding: 0px;
+        height: 120vh;
+    }
+
+    .body-white .icon1{
+        padding: 0px;
+    }
+
+    .body-white .icon2{
+        padding: 0px;
+    }
+
+    .body-white .icon3{
+        padding: 0px;
+    }
+
+    .body-white .blue{
+        display: none;
+    }
+
+    .body-blue{
+        width: 100%;
+        height: 200vh;
+        padding: 0px;
+    }
+    
+    .body-blue .title h4{
+        padding: 0px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+       
+    }
+    
+    .body-blue .img{
+        width: 100%;
+        padding: 0px;
+       
+        
+    }
+    
+    .body-blue .img .title h4{
+        padding: 0px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+        color: #00dde4;
+        
+       
+    }
+    
+    .body-blue .img .text p{
+        padding: 0px;
+        color: white;
+        letter-spacing: 2px;
+        line-height: 26px;
+        
+    }
+    
+    .body-blue .img .button{
+        width: 100%;
+        padding: 5px 0px 10px 0px;
+        
+        
+    }
+    
+    .body-blue .img .button .btn-info{
+    
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 30px;
+        color: white;
+        background: #e550ed ;
+        border: 1px solid #e550ed;
+        transition: 1s ease-in-out;
+        margin-left: 20px;
+    }
+    
+    .body-blue .img .button .btn-info:hover{
+    
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 30px;
+        color: white;
+        background: transparent ;
+        border: 1px solid #00dde4;
+        transition: 1s ease-in-out;
+        margin-left: 20px;
+    
+    }
+
+    .body-white2 .left img{
+        padding: 0px;
+
+    }
+
+    .body-white2 .pink3{
+        display: none;
+    }
+    
+    
+  }
+  
+
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .header .banner .right{
+        text-align: center;
+    }
+    
+    .header .banner .right h5{
+        color: white;
+    }
+   
+    
+    .body-white{
+        padding: 0px;
+        height: 120vh;
+    }
+
+    .body-white .icon1{
+        padding: 0px;
+    }
+
+    .body-white .icon2{
+        padding: 0px;
+    }
+
+    .body-white .icon3{
+        padding: 0px;
+    }
+
+    .body-white .blue{
+        display: none;
+    }
+
+    .body-blue{
+        width: 100%;
+        height: 200vh;
+        padding: 0px;
+    }
+    
+    .body-blue .title h4{
+        padding: 0px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+       
+    }
+    
+    .body-blue .img{
+        width: 100%;
+        padding: 0px;
+       
+        
+    }
+    
+    .body-blue .img .title h4{
+        padding: 0px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+        color: #00dde4;
+        
+       
+    }
+    
+    .body-blue .img .text p{
+        padding: 0px;
+        color: white;
+        letter-spacing: 2px;
+        line-height: 26px;
+        
+    }
+    
+    .body-blue .img .button{
+        width: 100%;
+        padding: 5px 0px 10px 0px;
+        
+        
+    }
+    
+    .body-blue .img .button .btn-info{
+    
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 30px;
+        color: white;
+        background: #e550ed ;
+        border: 1px solid #e550ed;
+        transition: 1s ease-in-out;
+        margin-left: 20px;
+    }
+    
+    .body-blue .img .button .btn-info:hover{
+    
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 30px;
+        color: white;
+        background: transparent ;
+        border: 1px solid #00dde4;
+        transition: 1s ease-in-out;
+        margin-left: 20px;
+    
+    }
+
+    .body-white2 .left img{
+        padding: 0px;
+
+    }
+
+    .body-white2 .pink3{
+        display: none;
+    }
+    
+    
+  }
+    
+}

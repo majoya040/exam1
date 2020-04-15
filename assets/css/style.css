@@ -418,6 +418,18 @@ a, a:hover{
     background-size: cover;
 }
 
+.owl-carousel .item{
+    padding: 80px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.owl-carousel .item h2{
+    color: #00dde4;
+}
+
 .gallery {
     width: 100%;
 }
@@ -811,6 +823,33 @@ a, a:hover{
         display: none;
     }
     
+    .body-blue2 .img img{
+        height: 350px;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        
+    }
+
+    .gallery .t1{
+        margin: 0px;
+
+    }
+    
+    .gallery .t2{
+        padding: 0px;
+
+    }
+
+    .gallery .t3{
+        padding: 0px;
+
+    }
+
+    .gallery .t4{
+        padding: 0px;
+
+    }
+    
     
 }
 
@@ -853,7 +892,7 @@ a, a:hover{
 
     .body-blue{
         width: 100%;
-        height: 200vh;
+        height: 210vh;
         padding: 0px;
     }
     
@@ -866,7 +905,6 @@ a, a:hover{
     }
     
     .body-blue .img{
-        width: 100%;
         padding: 0px;
        
         
@@ -886,15 +924,13 @@ a, a:hover{
         padding: 0px;
         color: white;
         letter-spacing: 2px;
-        line-height: 26px;
+        line-height: 20px;
         
     }
     
     .body-blue .img .button{
         width: 100%;
-        padding: 5px 0px 10px 0px;
-        
-        
+        padding: 5px 0px 10px 0px;  
     }
     
     .body-blue .img .button .btn-info{
@@ -929,6 +965,38 @@ a, a:hover{
 
     .body-white2 .pink3{
         display: none;
+    }
+
+    .body-blue2 .blue2{
+        display: none;
+    }
+
+    .body-blue2 .img img{
+        width: 350px;
+        height: 350px;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        
+    }
+
+    .gallery .t1 {
+        margin: 0px;
+
+    }
+
+    .gallery .t2 {
+        padding: 0px;
+
+    }
+
+    .gallery .t3 {
+        padding: 0px;
+
+    }
+
+    .gallery .t4 img{
+        margin: 0px;
+
     }
     
     
@@ -954,62 +1022,34 @@ a, a:hover{
     
     .body-white{
         padding: 0px;
-        height: 120vh;
+        height: 90vh;
     }
 
     .body-white .icon1{
-        padding: 0px;
+        padding: 30px;
     }
 
     .body-white .icon2{
-        padding: 0px;
+        padding:70px 30px 0px 30px;
+        
     }
 
     .body-white .icon3{
-        padding: 0px;
+        padding:70px 30px 0px 30px;
     }
 
     .body-white .blue{
         display: none;
     }
 
-    .body-blue{
-        width: 100%;
-        height: 200vh;
-        padding: 0px;
-    }
-    
-    .body-blue .title h4{
-        padding: 0px;
-        font-size: 25px;
-        color: white;
-        text-align: center;
-       
-    }
-    
     .body-blue .img{
-        width: 100%;
-        padding: 0px;
-       
-        
+        padding: 10px 10px 0px 0px;
     }
-    
-    .body-blue .img .title h4{
-        padding: 0px;
-        text-align: left;
-        font-size: 20px;
-        font-weight: 600;
-        color: #00dde4;
-        
-       
-    }
-    
-    .body-blue .img .text p{
-        padding: 0px;
-        color: white;
-        letter-spacing: 2px;
-        line-height: 26px;
-        
+    .body-blue .img img{
+       margin-left: -15px;
+       margin-right: 15px;
+        height: 200px;
+        width: 250px;
     }
     
     .body-blue .img .button{
@@ -1046,6 +1086,13 @@ a, a:hover{
 
     .body-white2 .left img{
         padding: 0px;
+        height: 300px;
+        width: 500px;
+
+    }
+
+    .body-white2 .right{
+        padding: 80px 0px 0px 110px;
 
     }
 
@@ -1053,6 +1100,17 @@ a, a:hover{
         display: none;
     }
     
+    .body-blue2 .img{
+        padding: 0px 10px 0px 10px;
+    }
+
+    .body-blue2 .img img{
+    
+        width: 380px;
+        height: 480px;
+        margin-left: -30px;
+        margin-right: 20px;
+    }
     
   }
     
